@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    height: 100vh;
+    width: 100vw;  
+    font-family:'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+header{ 
+    width: 100vw;  
+    background-color: white;
+    text-align: center;
+    color: black;
+    font-size: .8rem;
+}
+
+.calculator{
+    width: 500px;
+    height: 800px;
+    border: 2px solid black;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+}
+.display-screen{
+    margin: 16px;
+    height: 25%;
+    border: 2px solid black;
+    border-radius: 16px;
+}
