@@ -14,34 +14,38 @@
     </header>
     <div class="calculator">
         <div class="display-screen">
-
+            <div class="upper-input" id="input-display"></div>
+            <div class="bottom-output" id="output-display"></div>
         </div>
-        <div class="flex-container">
-            <button class="clear button">Clear</button>
-            <button class="delete button">Delete</button>
+        <div class="grid-container">
+            <button type="button" value="clear" data-key="8" class="clear" id="clearBtn">Clear</button>
+            <button class="delete" id="deleteBtn">Delete</button>
              <div class="numbers">
-                <button class="num button">7</button>
-                <button class="num button">8</button>
-                <button class="num button">9</button>
-                <button class="add button operator">+</button>
-                <button class="num button">6</button>
-                <button class="num button">5</button>
-                <button class="num button">4</button>
-                <button class="sub button operator">-</button>
-                <button class="num button">1</button>
-                <button class="num button">2</button>
-                <button class="num button">3</button>
-                <button class="mul button operator">*</button>
-                <button class="num button">.</button>
-                <button class="num button">0</button>
-                <button class="divide button operator">/</button>
-                <button class="equal button ">=</button>
+                <button type="button" data-key="55" class="num" data-num>7</button>
+                <button type="button" data-key="56" class="num" data-num>8</button>
+                <button type="button" data-key="57" class="num" data-num>9</button>
+                <button type="button" data-key="107" class="add operator" data-op>+</button>
+
+                <button type="button" data-key="52" class="num" data-num>4</button>
+                <button type="button" data-key="53" class="num" data-num>5</button>
+                <button type="button" data-key="54" class="num" data-num>6</button>
+                <button type="button" data-key="109" class="sub operator" data-op>-</button>
+
+                <button type="button" data-key="49" class="num" data-num>1</button>
+                <button type="button" data-key="50" class="num" data-num>2</button>
+                <button type="button" data-key="51" class="num" data-num>3</button>
+                <button type="button" data-key="106" class="mul operator" data-op>*</button>
+
+                <button type="button" data-key="190" class="decimal" id="decimalBtn">.</button>
+                <button type="button" data-key="48" class="num " data-num>0</button>
+                <button type="button" data-key="191" class="divide operator" data-op>/</button>
+                <button type="button" data-key="187" class="equal" id="equalBtn">=</button>
             </div> 
 
         </div>
     </div>
     <footer>
-        CopyRight © 2022 <a href="https://github.com/Manikanta528">Github</a>
+        CopyRight © <script>document.write(new Date().getFullYear())</script> <a href="https://github.com/Manikanta528">Github</a>
     </footer>
 </body>
 </html>
